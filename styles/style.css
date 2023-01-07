@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+.btn-primary {
+    background: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    color: #ffffff;
+    padding: 21px 25px 20px 26px;
+}
+
+/* header section */
+
+.header {
+    background-image: url('/images/banner/banner2.png');
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    position: right;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    padding: 193px 230px 388px 845px;
+}
+
+.banner-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+/* main section */
+
+main {
+    max-width: 1072px;
+    margin: 0 auto;
+
+}
+
+/* failures section */
+
+.failures {
+    display: flex;
+    align-items: center;
+}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.failures-des {
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* my plan section */
+
+.plan {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.plan-main-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 49.7px;
+}
+
+.plan-info-container {
+    display: flex;
+    text-align: center;
+}
+
+.about-plan {
+    margin-left: 129.04px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-des {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+
+/* footer section */
+.footer {
+    display: flex;
+
+}
