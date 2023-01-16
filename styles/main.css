@@ -1,0 +1,205 @@
+/* common styles */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 21px 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #089acb;
+    color: #FFFFFF;
+    box-shadow: 0 0 25px 0 #fffdfd;
+}
+
+ul {
+    padding: 0;
+}
+
+/* banner section */
+.banner {
+    background-image: url("/images/banner/banner3.png");
+    /* /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-content {
+    padding: 216px 230px 166px 0;
+    text-align: right;
+}
+
+.banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.banner p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 24px 0 32px;
+}
+
+/* failures styles */
+
+.failures {
+    display: flex;
+    margin: 139px 309px 0 219px;
+    align-items: center;
+    gap: 87px;
+}
+
+.failures-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.failures-content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin: 24px 0 16px 0;
+}
+
+.failures-content ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.failures-content ul li span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+/* plans styles */
+
+.plan h2 {
+    text-align: center;
+    margin: 130px 0 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.plan-item {
+    text-align: center;
+    border: 1px solid #4fabe8;
+    padding: 25px;
+}
+
+.plan-item:hover {
+    background-color: #3dc6f4;
+    color: #FFFFFF;
+    box-shadow: 0 0 25px 0 #2298c0;
+    border-radius: 8px;
+}
+
+.plan-item h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin: 15px 0;
+}
+
+.plan-item p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* positive mindset styles */
+
+.positive-mindset {
+    margin: 130px 230px;
+    background-image: url('/images/watch.png');
+}
+
+.positive-mindset-content {
+    padding: 59px 0 59px 64px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+}
+
+.positive-mindset-content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+/* footer styles */
+
+.footer-content {
+    display: flex;
+    padding: 130px 230px;
+    background: #151414;
+    gap: 331px;
+}
+
+.future h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.future p,
+span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.future span {
+    display: block;
+    margin-top: 16px;
+}
+
+.social-icon {
+    margin-top: 32px;
+}
+
+.social-icon img {
+    margin-right: 17px;
+}
+
+.Subscribe h4 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.Subscribe input {
+    padding: 21px 21px;
+    font-weight: 400;
+    font-size: 18px;
+    background: #151414;
+    border: 1px solid #FFFFFF;
+    margin: 31px 0 15px;
+    border-radius: 5px;
+}
+
+.Subscribe button {
+    background: #005FAC;
+    color: #FFFFFF;
+}
